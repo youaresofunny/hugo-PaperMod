@@ -31,6 +31,14 @@
     padding: 12px 0;
 }
 
+.social-icons a {
+    display: inline-block;
+}
+
+.social-icons a b {
+    display: inline-block;
+}
+
 .social-icons a:not(:last-of-type) {
     margin-inline-end: 12px;
 }
@@ -38,6 +46,7 @@
 .social-icons a svg {
     height: 26px;
     width: 26px;
+    margin-bottom: -7px;
 }
 
 code {
